@@ -1,0 +1,27 @@
+{
+  "name": "socket.io",
+  "version": "1.0.0",
+  "description": "JS 401 Lab 18",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "NODE_ENV=test jest --verbose",
+    "lint": "eslint ./**/*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmerlemeier-401-advanced-javascript/socket.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmerlemeier-401-advanced-javascript/socket.io/issues"
+  },
+  "homepage": "https://github.com/jmerlemeier-401-advanced-javascript/socket.io#readme",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "socket.io-client": "^2.3.0",
+    "socketio": "^1.0.0"
+  }
+}
